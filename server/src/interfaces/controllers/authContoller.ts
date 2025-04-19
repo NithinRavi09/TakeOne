@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { authUseCase } from "../../application/use-cases/authUseCase";
-import { register } from "module";
 
 export const authController = {
     async register(req: Request, res: Response){
